@@ -45,20 +45,4 @@ Add FFmpeg to PATH environment variable
 * After Deploying On The Worker And Check The Logs
 
 </details>
-
-
-
-
-```
-```
-</details>
-
-```
-
-</details>
-
-----
-
-
-<b><details><summary>Available Features</summary><br>
 	
