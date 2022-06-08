@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://telegra.ph/file/daeb18b6097092b17708b.jpg" alt="nz" width="350"/>
+<img src="https://img.freepik.com/free-photo/hacker-jacket-with-hood-with-laptop-sits-table_164357-56.jpg?w=2000" alt="nz" width="350"/>
 </p>
 
 ## Hiruu-Queen
