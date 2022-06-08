@@ -2,11 +2,11 @@
 <img src="https://img.freepik.com/free-photo/hacker-jacket-with-hood-with-laptop-sits-table_164357-56.jpg?w=2000" alt="nz" width="350"/>
 </p>
 
-## Hiruu-Queen
+## 𝚄 𝚁 𝙴 𝚂 𝙷  𝙼𝙳  𝚆 𝙰 𝚃 𝚂 𝙰 𝙿 𝙿  𝙱 𝙾 𝚃🛒
 
-> <a href="https://youtu.be/W-QCp2fWRTo"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
+> <a href="https://youtube.com/channel/UCynAhNwQKVvrhwEARsMCjOA"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
 
-> [Automated Multi Device whatsapp bot created](https://github.com/Hiruu-Queen/Dark-Sihilel) by [SIHILEL](github.com/Hiruu-Queen)
+> [Automated Multi Device whatsapp bot created](https://github.com/ureshkavidu/ureshkavidu01.git) by [𝚄 𝚁 𝙴 𝚂 𝙷](http://Wa.me/94714831387)
 
 > Dont forget to give a star bro.🥲 IF Heroku Deploy seems Error, Fork This Repo And Try Deploy Again
 
