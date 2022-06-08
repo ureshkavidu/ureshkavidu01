@@ -50,26 +50,9 @@ Add FFmpeg to PATH environment variable
 
 
 ```
-</details>
-
-<!-- Edit -->
-<b><details><summary>Edit settings.js</summary></b>
-```bash
-global.APIKeys = {
-	'https://zenzapis.xyz': 'YOURAPIKEY',
-}
-  
-global.owner = ["9181XXXXXX"]
-global.ownername = ["YourName"]
 ```
 </details>
 
-
-<!-- 24hrs-->
-<b><details><summary>For 24 Hours Activation</summary></b>
-
-```bash
-npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 
 </details>
