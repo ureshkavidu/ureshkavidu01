@@ -1452,7 +1452,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `╚»˙·٠•●♥ Tag All By Hiruu ♥●•٠·˙«╝ 
+let teks = `╚»˙·٠•●♥ Tag All By Uresh ♥●•٠·˙«╝ 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
@@ -1772,7 +1772,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '⚡SIHILEL⚡',
+                                    displayText: '🪄Uresh🛒',
                                     id: 'owner'
                                 }
                             }]
@@ -1806,7 +1806,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '⚡SIHILEL⚡',
+                                    displayText: '🪄Uresh🛒',
                                     id: 'owner'
                                 }
                             }]
@@ -2081,8 +2081,8 @@ break
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🎶U Audio🎶'}, type: 1},
-                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '📽️U ideo📽️'}, type: 1}
+                    {buttonId: `ytmp3 ${anu.url}`, buttonText: {displayText: '🛒Uresh Audio🛒'}, type: 1},
+                    {buttonId: `ytmp4 ${anu.url}`, buttonText: {displayText: '🛒Uresh Video🛒'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
