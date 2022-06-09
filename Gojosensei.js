@@ -635,7 +635,7 @@ if (q.includes('--help')) return reply(examkosong)
       {
        buttonId: `${prefix + command}`, 
        buttonText: {
-        displayText: 'Hiruu Mine Again⛏️'
+        displayText: 'Uresh Mine Again⛏️'
       }, type: 1},
     ]
     let buttonMessage = {
@@ -862,7 +862,7 @@ if (q.includes('--help')) return reply(examkosong)
       {
        buttonId: `${prefix + command}`, 
        buttonText: {
-        displayText: 'Hiruu Hunt Again️🏹'
+        displayText: 'Uresh Hunt Again️🏹'
       }, type: 1},
     ]
     let buttonMessage = {
@@ -1306,7 +1306,7 @@ GojoMdNx.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${san
             let jawab = `The Most *${command}* Here Is @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '👀', buttonText: { displayText: 'මරු බන් 😹' }, type: 1 }
+                        { buttonId: '👀', buttonText: { displayText: '✈️🪄🛒⚓' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: ments})
             }
@@ -2075,7 +2075,7 @@ break
         })
         }
         break
-	    case 'play': case 'song': case 'ytplay': {
+	    case 'play': case 'song': case 'yt': {
                 if (!text) return reply(`Example : ${prefix + command} Stay`)
                 let yts = require("yt-search")
                 let search = await yts(text)
@@ -2087,16 +2087,16 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-🦄 Title : ${anu.title}
-🦄 Ext : Search
-🦄 ID : ${anu.videoId}
-🦄 Duration : ${anu.timestamp}
-🦄 Viewes : ${anu.views}
-🦄 Uploaded On : ${anu.ago}
-🦄 Author : ${anu.author.name}
-🦄 Channel : ${anu.author.url}
-🦄 Description : ${anu.description}
-🦄 Url : ${anu.url}`,
+🛒 Title : ${anu.title}
+🛒 Ext : Search
+🛒 ID : ${anu.videoId}
+🛒 Duration : ${anu.timestamp}
+🛒 Viewes : ${anu.views}
+🛒 Uploaded On : ${anu.ago}
+🛒 Author : ${anu.author.name}
+🛒Channel : ${anu.author.url}
+🛒 Description : ${anu.description}
+🛒 Url : ${anu.url}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2694,12 +2694,12 @@ case 'webtonsearch': case 'webtoon':
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktokwmx': case 'tiktokwatermarkx': {
+            case 'tiktok': case 'tiktokwatermarkx': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬No Watermark🥬'}, type: 1},
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🍃No Watermark🍃'}, type: 1},
                     {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
                 ]
                 let buttonMessage = {
@@ -2828,11 +2828,11 @@ case 'webtonsearch': case 'webtoon':
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
 			caption: `
-🦄 Title : ${anu.title}
-🦄 Author : ${anu.author.name}
-🦄 Like : ${anu.like}
-🦄 Caption : ${anu.caption}
-🦄 Url : ${anu.media[0]}
+🛒 Title : ${anu.title}
+🛒 Author : ${anu.author.name}
+🛒 Like : ${anu.like}
+🛒 Caption : ${anu.caption}
+🛒 Url : ${anu.media[0]}
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
 			footer: GojoMdNx.user.name,
@@ -3295,10 +3295,10 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  How Are You 🦄💫
+┌┤✑  How Are You 🪄💫
 ││✑  🌝🖐️!!
 │└───────────────┈ ⳹
-│ 「 HIRUU QUEEN BOT INFO 」
+│ 「 URESH BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
@@ -3308,7 +3308,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  HIRUU QUEEN BOT CREATED BY SIHILEL 🦄💫
+   │✑  URESH BOT CREATED BY URESH 🦄💫
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3332,7 +3332,10 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '⚡SIHILEL⚡',
+                                    displayText: '🛒URESH🪄'
+					
+					
+			',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3358,7 +3361,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 └┬❖ 「 ${pushname} 」
 ┌┤✑  How Are You 🙏⚡
 │└───────────────┈ ⳹
-│ 「 HIRUU QUEEN BOT INFO 」
+│ 「 URESH BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
@@ -3368,7 +3371,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  HIRUU QUEEN BOT CREATED BY SIHILEL 🦄💫
+   │✑  URESH BOT CREATED BY URESH 🦄💫
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3392,7 +3395,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🦄SIHILEL🦄',
+                                    displayText: 'URESH🛒',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3763,7 +3766,7 @@ case 'allmenu': {
 ┃╠${prefix}masasubur (indo)
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝐇𝐈𝐑𝐔𝐔 𝐐𝐔𝐄𝐄𝐍
+┃╚═══════✍︎𝐔𝐑𝐄𝐒𝐇 𝐐𝐔𝐄𝐄𝐍
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3779,7 +3782,7 @@ case 'allmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '⚡SIHILEL⚡',
+                                    displayText: '🪄URESH🛒',
                                     id: `${prefix}owner`
                                 }
                             }]
